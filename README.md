@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a project to process FHIR data from a queue. The project is built using NestJS and experimenting with 3 databases (Postgres, MongoDB, Cassandra). 
+This is a project to process FHIR data from bundles to a queue.This queue can then be consumed to load the data into a FHIR server. The project is built using NestJS and experimented with 3 databases (Postgres, MongoDB, Cassandra). 
 
 The implementations are the same, the only difference is the underlying database. For your own implementation, you can decide to use any of the three databases.
 
